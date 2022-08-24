@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Jvst.cc anti aim gui", "BloodTheme")
+local Tab = Window:NewTab("Aa/antiaim")
+local Section = Tab:NewSection("Antiaims")
+
+Section:NewButton("Underground aa", "z to anti lock", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/imchadsubscribetocha/underground/main/undergorundaa'))()
+end)
+
+Section:NewButton("unhittable aa", "x to anti lock", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/imchadsubscribetocha/unhittiable/main/unhittiableaa'))()
+end)
+
+Section:NewButton("paid aa aa", "c to anti lock", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/imchadsubscribetocha/paid/main/paidaa'))()
+end)
+
+Section:NewButton("blatant aa (cant turn off) ithink", "ok", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/imchadsubscribetocha/blatant-aa/main/blatantaa'))()
+end)
+
+Section:NewButton("manual aa (cant turn off)", "ok", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/imchadsubscribetocha/manual-aa/main/manual'))()
+end)
